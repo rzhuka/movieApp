@@ -1,0 +1,15 @@
+.App,
+body,
+html,
+#root {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.App {
+  background: url("./assets/background.jpg") !important;
+}
+.App .app-body {
+  height: 100%;
+  width: 100%;
+}

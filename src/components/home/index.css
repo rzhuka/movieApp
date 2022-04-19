@@ -1,0 +1,17 @@
+.home-container {
+  height: 100%;
+  width: 100%;
+}
+.home-container .body-container {
+  width: 100%;
+  height: calc(100% - 110px);
+  padding-left: 56px;
+}
+.home-container .body-container .tittle {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  justify-content: center;
+  color: darkred;
+}

@@ -1,0 +1,33 @@
+.headerContainer {
+  display: flex;
+  margin: 0 56px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.35)
+    ),
+    top left / cover no-repeat;
+}
+.headerContainer .link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: "normal";
+  cursor: pointer;
+}
+
+.headerContainer .link:hover {
+  font-weight: bold;
+}
+.headerContainer .logo {
+  color: #fff;
+  font-family: monospace;
+  font-style: italic;
+  font-size: 25px;
+  padding-left: 40px;
+  cursor: pointer;
+}
